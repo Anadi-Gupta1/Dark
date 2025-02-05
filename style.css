@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
